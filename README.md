@@ -3,6 +3,8 @@
 ## Description:
 A two player turn based strategy game based on Pocket Tanks by Bitwise Productions.
 
+Play it here: https://battle-tanks-24.herokuapp.com/
+
 ## Rules:
 The goal is to destroy your opponents tank by hitting them with your tank shell.
 Each player takes turns; on a player's turn they can move and adjust the angle and power of their shot.
