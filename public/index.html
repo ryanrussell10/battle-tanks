@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Battle Tanks!</title>
+        <script type="text/javascript" src="phaser.min.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="classes.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <style>
+            body {
+                display: grid;
+                gap: 1rem;
+                grid-auto-flow: column;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Controls</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>'mouse':</strong> move your cursor to adjust the angle of your shot<br>
+                    when your angle is bound change your shot power by moving your cursor left to right<br>
+                    <strong>'W':</strong> press once to bind angle and press again to fire<br>
+                    <strong>'S':</strong> press to unbind angle<br>
+                    <strong>'A':</strong> move left<br>
+                    <strong>'D':</strong> move right<br>
+                    <strong>'Z':</strong> switch to Light Shell<br>
+                    <strong>'X':</strong> switch to Heavy Shell<br>
+                    <strong>'C':</strong> switch to Explosive Shell
+                </td>
+            </tr>
+            <tr>
+                <th>Rules</th>
+            </tr>
+            <tr>
+                <td>
+                    1. Each player takes turns to move and fire<br>
+                    2. You cannot move or fire during the other player's turn<br>
+                    3. The game is over when one player's health drops below 0<br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
